@@ -1,14 +1,14 @@
 #!/bin/bash
  
 # Objective: Create your own text-based "Create Your Own Adventure story" using Bash scripting. 
-# Apply  knowledge of loops and conditionals to make the story interactive, 
+# Apply knowledge of loops and conditionals to make the story interactive, 
 # Allow the player to make choices that affect the outcome.
  
  
 #!/bin/bash
  
 # Function to display text with a typing effect 
-# P.S: I used 'type_text' over 'read -p' and "print_text" just because it makes it type cooler! (Thanks to ChatGPT!)
+# P.S: I chose 'type_text' over 'read -p' and "print_text" just because it makes it type cooler! (Thanks to ChatGPT!)
 type_text() {
     text="$1"
     for ((i=0; i<${#text}; i++)); do
@@ -37,11 +37,11 @@ echo " "
  
 # First choice
 type_text "1. You realize you forgot your wallet (Oh shucks!)"
-type_text "2. You notice your date texting someone else (What in the blazes ... but let's play it cool"
+type_text "2. You notice your date texting someone else (What in the blazes!?! ... but hey, let's play it cool)"
 echo " "
 echo " "
-
-
+ 
+ 
 # Collect the choice in a variable
 choice=$(get_choice)
  
@@ -78,7 +78,7 @@ else
     if [ "$choice" == "1" ]; then
         type_text "You respectfully ask about the texting. Your date apologizes, explaining it was a work emergency.(Being Understanding is one of your strongest traits)"
         type_text "They put their phone away, and you have a great conversation for the rest of the evening."
-		echo " "
+        echo " "
         type_text " See, there was no need to be extra! Congratulations, your communication skills saved the date!"
     else
         type_text "You try to ignore the texting, but your date remains distracted throughout dinner. (Well, this is awkward...)"
@@ -95,4 +95,3 @@ echo " "
 echo " "
 type_text "Hope this ridiculous adventure  made you smile, cackle or Guffaw( Yup! it's a real word, please look it up)"
 echo " " 
-		
