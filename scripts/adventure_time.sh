@@ -4,8 +4,7 @@
 # Apply knowledge of loops and conditionals to make the story interactive, 
 # Allow the player to make choices that affect the outcome.
  
- 
-#!/bin/bash
+
  
 # Function to display text with a typing effect 
 # P.S: I chose 'type_text' over 'read -p' and "print_text" just because it makes it type cooler! (Thanks to ChatGPT!)
