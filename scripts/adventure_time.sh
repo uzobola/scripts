@@ -81,7 +81,7 @@ else
         type_text " See, there was no need to be extra! Congratulations, your communication skills saved the date!"
     else
         type_text "You try to ignore the texting, but your date remains distracted throughout dinner. (Well, this is awkward...)"
-        type_text "The evening drags on uncomfortably, and you both leave feeling disappointed.(Bummer! Such a waste of a nice outfit and good perfume.) "
+        type_text "The evening drags on uncomfortably, and you both leave feeling disappointed.(Bummer! Such a sad waste of a nice outfit and good perfume.) "
         echo " "
         type_text "Game Over!"
         type_text " Well, I guess it pays to address issues directly. On the bright side, at least you dodged a bullet!"
