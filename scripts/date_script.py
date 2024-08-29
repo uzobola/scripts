@@ -50,10 +50,10 @@ if place_order == "Y":
   user_order = input("\n What would you like to have?")
 
   #Variables to get prices
-   date_order_price = dateFuncs.get_price(date_order, dateFuncs.kuraCafe)
-   user_order_price = dateFuncs.get_price(user_order, dateFuncs.kuraCafe)
-   total_order_cost = date_order_price + user_order_price
-   leftover_budget = budget - total_order_cost
+  date_order_price = dateFuncs.get_price(date_order, dateFuncs.kuraCafe)
+  user_order_price = dateFuncs.get_price(user_order, dateFuncs.kuraCafe)
+  total_order_cost = date_order_price + user_order_price
+  leftover_budget = budget - total_order_cost
   
   # Make sure they enter items in the menu list
   if date_order in menu_items and user_order in menu_items:

@@ -1,8 +1,8 @@
 kuraCafe={
-      "Pastries":{"Croissant":{"Price":"$1.50","Ingredients":["flour","butter","eggs"]},"Cream Puff":{"Price":"$1.50","Ingredients":["flour","eggs","milk"]}},
-      "Entrees":{"BaconEgg&Cheese":{"Price":"$3.00","Ingredients":["bagel","cheese","eggs","bacon"]},"Egg Salad Sandwich":{"Price":"$4.00","Ingredients":["bread","eggs","mayo"]}},
-      "Desserts":{"Cheesecake":{"Price":"$1.00","Ingredients":["crust","cream cheese","eggs","blueberries"]},"Blueberry Muffins":{"Price":"$2.50", "Ingredients":["flour","butter","eggs"]}},
-      "Bevs":{"Drip Coffee":{"Price":"$1.00","Ingredients":["colombian coffee beans","water"]},"Water":{"Price":"$0.50"}}
+      "Pastries":{"croissant":{"Price":"$1.50","Ingredients":["flour","butter","eggs"]},"cream puff":{"Price":"$1.50","Ingredients":["flour","eggs","milk"]}},
+      "Entrees":{"bacon egg and cheese":{"Price":"$3.00","Ingredients":["bagel","cheese","eggs","bacon"]},"egg ealad sandwich":{"Price":"$4.00","Ingredients":["bread","eggs","mayo"]}},
+      "Desserts":{"cheese cake":{"Price":"$1.00","Ingredients":["crust","cream cheese","eggs","blueberries"]},"blueberry muffins":{"Price":"$2.50", "Ingredients":["flour","butter","eggs"]}},
+      "Bevs":{"drip coffee":{"Price":"$1.00","Ingredients":["colombian coffee beans","water"]},"water":{"Price":"$0.50"}}
       }
   
 
