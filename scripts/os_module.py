@@ -10,8 +10,9 @@
 import os
 
 def count_dir(dir):
-  file= os.listdir(dir)
-  print("You have {file} files in this directory")
+  files = os.listdir(dir)
+  count_files = len(files)
+  print(f"You have {files} files in this directory")
 
 
 
