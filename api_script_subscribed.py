@@ -44,3 +44,6 @@ print(values)
 for value in weather.values():
     print(value)
 
+# Extract specific item and print a statement that 
+# meaningfully displays this information. 
+
