@@ -1,3 +1,10 @@
+#Choose an API from RapidAPI that interests you—make sure it has a free tier and simple authentication. 
+# Write a Python script that makes a request to your selected API, using the appropriate endpoint and parameters to retrieve data. 
+# Save the response data to a variable, and handle it as JSON to work with nested structures. 
+# Extract a specific item from the nested dictionary in the response, and 
+# print a statement that meaningfully displays this information. 
+
+
 import requests
 
 # Endpoint that data would be retrieved from
