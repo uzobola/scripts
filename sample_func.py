@@ -7,19 +7,22 @@
 # Function takes 2 parameters (total hours and down hours)
 def uptime_percent(total_hrs, down_hrs):
 # Calculate uptime hours by minusing the num of hours down from the total hours up and put them in variables
-    uptime_hrs = total_hrs - down_hrs
+    up_hrs = total_hrs - down_hrs
 # Calculate percentage and put in variable
-    uptime_percent = (uptime_hrs / total_hrs) * 100
+    up_percent = (up_hrs / total_hrs) * 100
     
 # return uptime percentage rounded to two decimal places using round() 
 # round() takes the value to be rounded and the num of places it should be rounded to
-    return round(uptime_percent, 2)
-
+    return round(up_percent, 2)
 
 
 # Lets test
 total_hrs = float(input("Enter the total number of hours: "))
 down_hrs = float(input("Enter the number of down hours: "))
+up_hrs = total_hrs - down_hrs
 
+# Call the function and collect the result in a variable
 result = uptime_percent(total_hrs, down_hrs)
-print(result)
+
+print(f"Your total uptime hours are: {up_hrs} hours")
+print(f" Your uptime percentage is: {result} % ")
